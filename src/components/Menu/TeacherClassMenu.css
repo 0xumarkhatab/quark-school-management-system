@@ -1,0 +1,13 @@
+.teacher__class__menu__rollcall {
+  margin-top: 5vh;
+}
+.save__button {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  padding-bottom: 5vh;
+}
+.teacher__class__menu__rollcall__list {
+  width: 90vw;
+  padding: 20px;
+}

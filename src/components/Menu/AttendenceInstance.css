@@ -1,0 +1,26 @@
+.attendenceInstance {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90vw;
+  color: white;
+  padding: 20px;
+  height: fit-content;
+  box-shadow: 2px 2px 2px 2px var(--bg-primary);
+  margin-bottom: 2vh;
+  border-radius: 10px;
+  text-transform: capitalize;
+}
+.attendenceInstance__left,
+.attendenceInstance__right {
+  display: flex;
+  justify-content: space-between;
+}
+
+.attendenceInstance__left {
+  flex: 0.3;
+}
+.attendenceInstance__left > p,
+.attendenceInstance__right > button {
+  margin-left: 10px;
+}

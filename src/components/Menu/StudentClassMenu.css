@@ -1,0 +1,15 @@
+.student__class__menu {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  animation: fadeInOpacity 4s;
+}
+.student__class__menu__Item {
+  display: flex;
+  flex-direction: column;
+  height: 20vh;
+  justify-content: center;
+  align-items: center;
+}
+.student__class__menu__Item > button {
+  margin-bottom: 5vh;
+}

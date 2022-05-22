@@ -1,0 +1,86 @@
+.btn {
+  outline: none;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  padding: 8px;
+  background-color: black;
+  border: 1px solid var(--bg-primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+}
+
+button > .title {
+  font-size: 20px;
+  text-decoration: none;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.btn > .icon {
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  margin-right: 20px;
+}
+
+.btn > .circularTitle {
+  font-size: 18px;
+  color: white;
+  width: fit-content;
+  border-radius: 30%;
+  padding: 10px;
+  border: 1px solid var(--bg-success);
+  background-color: black;
+  margin-left: 50px;
+  transition: all 2s;
+}
+.btn > .circularTitle:hover {
+  cursor: pointer;
+  background-color: var(--bg-success);
+}
+
+.btn:hover {
+  cursor: pointer;
+  transform: scale(1.01);
+}
+
+.btn-primary {
+  border: 1px solid var(--bg-primary);
+}
+.btn-success {
+  border: 1px solid var(--bg-success);
+}
+.btn-danger {
+  border: 1px solid var(--bg-danger);
+}
+.btn-primary:hover {
+  color: black;
+  cursor: pointer;
+}
+.btn-danger:hover,
+.btn-success:hover {
+  cursor: pointer;
+  color: white;
+}
+
+.btn-primary:hover {
+  background: var(--bg-primary);
+}
+.btn-danger:hover {
+  background: var(--bg-danger);
+}
+
+.btn-success:hover {
+  cursor: pointer;
+  color: white;
+
+  background: var(--bg-success);
+}
+
+.selected {
+  cursor: default;
+  background: var(--bg-primary);
+}
